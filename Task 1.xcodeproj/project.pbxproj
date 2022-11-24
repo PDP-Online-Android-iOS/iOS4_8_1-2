@@ -19,6 +19,9 @@
 		64FCE8AE292F842900ED8348 /* LoginViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FCE8AC292F842900ED8348 /* LoginViewController.xib */; };
 		64FCE8B1292F843300ED8348 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FCE8AF292F843300ED8348 /* HomeViewController.swift */; };
 		64FCE8B2292F843300ED8348 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FCE8B0292F843300ED8348 /* HomeViewController.xib */; };
+		64FCE8DB292FABEA00ED8348 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FCE8DA292FABEA00ED8348 /* Post.swift */; };
+		64FCE8E2292FB09D00ED8348 /* PostTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64FCE8E0292FB09D00ED8348 /* PostTableViewCell.swift */; };
+		64FCE8E3292FB09D00ED8348 /* PostTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 64FCE8E1292FB09D00ED8348 /* PostTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +39,9 @@
 		64FCE8AC292F842900ED8348 /* LoginViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LoginViewController.xib; sourceTree = "<group>"; };
 		64FCE8AF292F843300ED8348 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		64FCE8B0292F843300ED8348 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		64FCE8DA292FABEA00ED8348 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Post.swift; sourceTree = "<group>"; };
+		64FCE8E0292FB09D00ED8348 /* PostTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostTableViewCell.swift; sourceTree = "<group>"; };
+		64FCE8E1292FB09D00ED8348 /* PostTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,6 +74,8 @@
 		64FCE88B292F835100ED8348 /* Task 1 */ = {
 			isa = PBXGroup;
 			children = (
+				64FCE8DC292FAF7400ED8348 /* cell */,
+				64FCE8D6292FABC600ED8348 /* model */,
 				64FCE8A1292F836100ED8348 /* controller */,
 				64FCE88C292F835100ED8348 /* AppDelegate.swift */,
 				64FCE88E292F835100ED8348 /* SceneDelegate.swift */,
@@ -123,6 +131,23 @@
 				64FCE8A6292F838F00ED8348 /* RegisterViewController.xib */,
 			);
 			path = register;
+			sourceTree = "<group>";
+		};
+		64FCE8D6292FABC600ED8348 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				64FCE8DA292FABEA00ED8348 /* Post.swift */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		64FCE8DC292FAF7400ED8348 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				64FCE8E0292FB09D00ED8348 /* PostTableViewCell.swift */,
+				64FCE8E1292FB09D00ED8348 /* PostTableViewCell.xib */,
+			);
+			path = cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -187,6 +212,7 @@
 				64FCE899292F835300ED8348 /* LaunchScreen.storyboard in Resources */,
 				64FCE896292F835300ED8348 /* Assets.xcassets in Resources */,
 				64FCE894292F835100ED8348 /* Main.storyboard in Resources */,
+				64FCE8E3292FB09D00ED8348 /* PostTableViewCell.xib in Resources */,
 				64FCE8A8292F839000ED8348 /* RegisterViewController.xib in Resources */,
 				64FCE8B2292F843300ED8348 /* HomeViewController.xib in Resources */,
 			);
@@ -202,8 +228,10 @@
 				64FCE8A7292F839000ED8348 /* RegisterViewController.swift in Sources */,
 				64FCE8AA292F839600ED8348 /* BaseViewController.swift in Sources */,
 				64FCE88D292F835100ED8348 /* AppDelegate.swift in Sources */,
+				64FCE8E2292FB09D00ED8348 /* PostTableViewCell.swift in Sources */,
 				64FCE8AD292F842900ED8348 /* LoginViewController.swift in Sources */,
 				64FCE88F292F835100ED8348 /* SceneDelegate.swift in Sources */,
+				64FCE8DB292FABEA00ED8348 /* Post.swift in Sources */,
 				64FCE8B1292F843300ED8348 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
